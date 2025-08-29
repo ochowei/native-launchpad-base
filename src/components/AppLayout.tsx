@@ -35,9 +35,9 @@ export function AppLayout({ children, activeTab, onTabChange }: AppLayoutProps) 
           {children}
           
           {/* Bottom Navigation */}
-          <div className="fixed bottom-[110px] left-0 right-0 z-30">
+          <div className="fixed bottom-[105px] left-0 right-0 z-30">
             <Card className="mx-4 mb-2 bg-card/80 backdrop-blur-xl border-border/50">
-              <TabsList className="grid w-full grid-cols-4 bg-transparent p-2">
+              <TabsList className="grid w-full grid-cols-4 bg-transparent p-0">
                 <TabsTrigger
                   value="home"
                   className="flex flex-col gap-0 py-0 data-[state=active]:bg-primary/20 data-[state=active]:text-primary"
