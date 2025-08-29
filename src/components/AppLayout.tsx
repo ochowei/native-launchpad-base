@@ -48,7 +48,7 @@ export function AppLayout({ children, activeTab, onTabChange }: AppLayoutProps) 
                 
                 <TabsTrigger
                   value="search"
-                  className="flex flex-col gap-0 py-0 data-[state=active]:bg-primary/20 data-[state=active]:text-primary"
+                  className="flex flex-col gap-0 py-2 data-[state=active]:bg-primary/20 data-[state=active]:text-primary"
                 >
                   <Search className="h-4 w-4" />
                   <span className="text-xs">Search</span>
