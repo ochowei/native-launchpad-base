@@ -40,7 +40,7 @@ export function AppLayout({ children, activeTab, onTabChange }: AppLayoutProps) 
               <TabsList className="grid w-full grid-cols-4 bg-transparent p-2">
                 <TabsTrigger
                   value="home"
-                  className="flex flex-col gap-1 py-2 data-[state=active]:bg-primary/20 data-[state=active]:text-primary"
+                  className="flex flex-col gap-1 py-0 data-[state=active]:bg-primary/20 data-[state=active]:text-primary"
                 >
                   <Home className="h-4 w-4" />
                   <span className="text-xs">Home</span>
@@ -48,7 +48,7 @@ export function AppLayout({ children, activeTab, onTabChange }: AppLayoutProps) 
                 
                 <TabsTrigger
                   value="search"
-                  className="flex flex-col gap-1 py-2 data-[state=active]:bg-primary/20 data-[state=active]:text-primary"
+                  className="flex flex-col gap-1 py-0 data-[state=active]:bg-primary/20 data-[state=active]:text-primary"
                 >
                   <Search className="h-4 w-4" />
                   <span className="text-xs">Search</span>
@@ -56,7 +56,7 @@ export function AppLayout({ children, activeTab, onTabChange }: AppLayoutProps) 
                 
                 <TabsTrigger
                   value="library"
-                  className="flex flex-col gap-1 py-2 data-[state=active]:bg-primary/20 data-[state=active]:text-primary"
+                  className="flex flex-col gap-1 py-0 data-[state=active]:bg-primary/20 data-[state=active]:text-primary"
                 >
                   <Library className="h-4 w-4" />
                   <span className="text-xs">Library</span>
@@ -64,7 +64,7 @@ export function AppLayout({ children, activeTab, onTabChange }: AppLayoutProps) 
                 
                 <TabsTrigger
                   value="liked"
-                  className="flex flex-col gap-1 py-2 data-[state=active]:bg-primary/20 data-[state=active]:text-primary"
+                  className="flex flex-col gap-1 py-0 data-[state=active]:bg-primary/20 data-[state=active]:text-primary"
                 >
                   <Heart className="h-4 w-4" />
                   <span className="text-xs">Liked</span>
